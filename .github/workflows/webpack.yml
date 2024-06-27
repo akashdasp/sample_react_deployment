@@ -24,5 +24,6 @@ jobs:
 
     - name: Install dependencies and build
       run: |
+         npm install webpack-cli --yes
         npm install
         npm run build
